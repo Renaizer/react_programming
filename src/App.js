@@ -3,6 +3,7 @@ import './App.css';
 import DateAndTime from './Component/DateAndTime';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Alarm from './Component/Alarm';
 
 
 function App() {
@@ -10,7 +11,12 @@ function App() {
     <div className="App" >
       <div className="container">
         <div className="row border">
-          <div className="col-4 border">col-4</div>
+          <div className="col-4 border">
+            <Alarm/>
+            <Alarm/>
+            <Alarm/>
+            <Alarm/>
+          </div>
           <div className="col-8 border display-1 ">
             <DateAndTime></DateAndTime>
           </div>
